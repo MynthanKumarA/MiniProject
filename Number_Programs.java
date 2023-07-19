@@ -10,11 +10,11 @@ public class Number_Programs{
 
 		System.out.print("\nProgram to Check for the Prime Number");
 		System.out.print("\nEnter the Number : ");
-		int value=sc.nextInt();
+		int user_val=sc.nextInt();
 
 
-		while (value<a) {
-			if (value % a == 0) {
+		while (user_val<a) {
+			if (user_val % a == 0) {
 			    flag=true;
 				break;
 			}
